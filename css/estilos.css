@@ -102,6 +102,7 @@ textarea {
 /* Hero container */
 
 .hero__container {
+    
     max-width: 800px;
     --padding-container: 0;
     display: grid;
@@ -113,11 +114,14 @@ textarea {
 }
 
 .hero__title {
+    padding-top: 30px;
     font-size: 3rem;
+    color: #ccc;
 }
 
 .hero__paragraph {
     margin-bottom: 20px;
+    color: #ccc;
 }
 
 .cta {
